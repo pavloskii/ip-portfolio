@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Of Thrones</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Header-ot......................................................-->
+    <div class="jumbotron text-center" id="header">
+        <br>
+        <br>
+    </div>
+    <!--Navigacija i dodavanje na kukji-->
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav" id="houseMenu">
+            <li class="active"><a id="addNewHouse" type="button">Add New House</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" hidden id="houseInputs">
+            <div class="form-group">
+                <label for="houseName">Name:</label>
+                <input type="text" class="form-control" id="houseName" placeholder="House name">
+            </div>
+
+            <div class="form-group">
+                <label for="housePop">Population:</label>
+                <input type="number" class="form-control" id="housePop" placeholder="Number of people">
+            </div>
+
+            <div class="form-group">
+                <label for="symbol">Symbol:</label>
+                <input type="text" class="form-control" id="symbol" placeholder="Please enter a image source here">
+            </div>
+            <div id="lordBackground">
+                <div class="form-group" id="lordDiv">
+                    <label for="houseLords">Lord's Name:</label>
+                    <input type="text" class="form-control lords" placeholder="name of the lord" style="margin-bottom: 10px">
+                </div>
+                <div class="form-group">
+                    <input type="button" class="btn btn-default" value="Add More Lords" id="addMoreLords">
+                </div>
+            </div>
+            <div class="form-group col-sm-5 col-sm-offset-5">
+                <input type="button" class="btn btn-default" value="Save House" id="saveHouse">
+            </div>
+            <div class="form-group col-sm-1">
+                <input type="button" class="btn btn-default" value="X" id="closeButton">
+            </div>
+
+        </div>
+        
+    </nav>
+    <!--sredisniot del...................................................-->
+    <div class="container" id="main">
+
+    </div>
+    <!--footerot.........................................................-->
+    <div class="navbar-fixed-bottom" id="footer">
+        <p>Game of Thrones - Houses at War - &copy;IP</p>
+    </div>
+
+    <!--skripti...........................................................-->
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

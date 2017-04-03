@@ -1,0 +1,57 @@
+body {
+    background-color: #dbdbdb;
+    background-image: url('images/the-throne.jpg');
+    background-position: 0px 180px; 
+    color: antiquewhite;
+}
+
+#header {
+    background-image: url('images/gothead2.1.jpg');
+    margin-bottom: 0px;
+}
+
+#footer {
+    text-align: center;
+    color: lightslategray;
+    background-image: url('images/symbols.jpg');
+}
+
+#houseInputs label {
+    color:whitesmoke;
+}
+
+#lordBackground p {
+    color: floralwhite;
+}
+
+#lordBackground {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #4c4c4c;
+}
+
+#houseInputs {
+    padding: 10px;
+    background-color: black;
+}
+
+#saveHouse {
+    color: white;
+    background-color: #4d0000;
+}
+
+.houseImage {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+textarea    {
+    color: black;
+    height: 270px;
+    width: 270px;
+}
+
+div.houseRow {
+    background-color:rgba(38, 37, 37, 0.7);
+    margin-bottom: 20px;
+}
